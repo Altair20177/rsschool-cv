@@ -11,7 +11,7 @@ I know only one language: C++ and a bit JS and Pascal. Use Visual Studio and VSC
 
 ---
 
-This is a block with some code, where I show what I can in markdown: here I can use *italics* or **bold**, above i used list and headers.
+This is a block with some code, where I show what I can in markdown: here I can use *oblique* or **bold**, above i used list and headers.
 
 ***
 
