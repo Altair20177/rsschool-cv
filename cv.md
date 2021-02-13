@@ -9,11 +9,11 @@ I study at BSUIR. Now i'm second course. I have a goal: i want to be demanded pr
 
 I know only one language: C++ and a bit JS and Pascal. Use Visual Studio and VSCode. At an early date I will learn MySQL.
 
----
+------
 
 This is a block with some code, where I show what I can in markdown: here I can use *oblique* or **bold**, above i used list and headers.
 
-***
+******
 
 In the first and second courses I passed and defended two course works in C++.
 Study in BSUIR, once I was in seminar in EPAM. And never visited vebinars.
