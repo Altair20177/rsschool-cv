@@ -1,2 +1,2 @@
 ## HTML, CSS & Git
-https://altair20177.github.io/rsschool-cv/cv
+https://Altair20177.github.io/rsschool-cv/
