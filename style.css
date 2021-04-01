@@ -1,0 +1,328 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.intro {
+  width: 1920px;
+}
+.logo {
+  display: flex;
+  margin: 30px 503px 0 260px;
+  width: 96px;
+  height: 50px;
+  background-image: url("img/Logologo.svg");
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+  width: 1920px;
+  height: 110px;
+  background: #f58021;
+}
+.menu__list {
+  display: flex;
+  padding-top: 42px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: black;
+}
+.link1 {
+  margin-right: 48px;
+  color: #00a092;
+}
+.link2,
+.link3,
+.link4 {
+  margin-right: 48px;
+  color: black;
+}
+.link5 {
+  color: black;
+}
+.social__icons__list {
+  display: flex;
+}
+.youtube {
+  position: absolute;
+  margin: 37px 0 0 67px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: red;
+}
+.youtube__icon {
+  position: absolute;
+  left: 17.5%;
+  right: 18.25%;
+  top: 27.5%;
+  bottom: 27.5%;
+  background-image: url("img/youtube.svg");
+}
+.inst {
+  position: absolute;
+  margin: 37px 0 0 135px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #c13584;
+}
+.inst__icon {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 20%;
+  bottom: 20%;
+  background-image: url("img/instagram\ icon.svg");
+}
+.facebook {
+  position: absolute;
+  margin: 37px 0 0 205px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #3b5998;
+}
+.facebook__icon {
+  position: absolute;
+  left: 37.5%;
+  right: 35.31%;
+  top: 22.5%;
+  bottom: 22.5%;
+  background-image: url("img/facebook\ icon.svg");
+}
+.background {
+  background-image: url("img/Background.png");
+  background-repeat: no-repeat;
+  background-position: -1px -40px;
+  height: 900px;
+  margin-bottom: 50px;
+}
+h1 {
+  padding-top: 129px;
+  width: 890px;
+  height: 280px;
+
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 82px;
+  line-height: 100px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #00a092;
+}
+.text__intro {
+  margin-top: 180px;
+  width: 430px;
+  height: 76px;
+
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.button__intro {
+  margin-top: 51px;
+  position: absolute;
+  width: 240px;
+  height: 74px;
+  background: #f58021;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+.about__zoo {
+  height: 1583px;
+  width: 1920px;
+}
+.welcome,
+.eagles {
+  display: flex;
+}
+.welcome__big__text {
+  padding-top: 68px;
+  width: 523px;
+  height: 132px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #00a092;
+}
+.welcome__small__text {
+  padding-top: 130px;
+  width: 560px;
+  height: 213px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+  margin-right: 40px;
+}
+.eagles__img {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.eagles__text__big {
+  padding-top: 263px;
+  margin-left: 40px;
+  width: 462px;
+  height: 66px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #00a092;
+}
+.eagles__text__small {
+  padding-top: 120px;
+  margin-left: 40px;
+  width: 560px;
+  height: 189px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+}
+.footer__in__about__zoo {
+  width: 1920px;
+  height: 221px;
+  background: #20113d;
+}
+.container2 {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: Montserrat;
+}
+.your__donation__big {
+  padding-top: 50px;
+  width: 889px;
+  height: 51px;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 51px;
+  text-transform: uppercase;
+}
+.your__donation__small {
+  padding-top: 70px;
+  width: 609px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 150%;
+}
+.quick__donate__text {
+  padding-top: 52px;
+  margin-left: 191px;
+  width: 182px;
+  height: 34px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 130%;
+}
+.quick__donate__button {
+  margin-top: 50px;
+  margin-left: 191px;
+  width: 320px;
+  height: 74px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
